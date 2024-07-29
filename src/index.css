@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    @apply font-sans;
+  }
+
+/* styles.css */
+.animate-link {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+}
+
+.animate-link::before {
+  content: "---";
+  position: absolute;
+  left: -30px; 
+  top: 0;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 0.3s ease-in-out;
+  color: #ffff;
+}
+
+.animate-link:hover::before {
+  width: 30px; /* Ajuste conforme necessário */
+}
