@@ -11,13 +11,13 @@ export function Sidebar() {
 
         <ul className="mt-20">
           <li className="mb-3.5">
-            <a href="#about" className="text-blue-200 hover:text-white animate-link">Sobre Mim</a>
+            <a href="#about" className="text-blue-200 hover:text-white animate-link hover:translate-x-4">Sobre Mim</a>
           </li>
           <li className="mb-3.5">
-            <a href="#projects" className="text-blue-200 hover:text-white animate-link">Projetos</a>
+            <a href="#projects" className="text-blue-200 hover:text-white animate-link hover:translate-x-4">Projetos</a>
           </li>
           <li className="mb-3.5">
-            <a href="#skills" className="text-blue-200 hover:text-white animate-link">Habilidades</a>
+            <a href="#skills" className="text-blue-200 hover:text-white animate-link hover:translate-x-4">Habilidades</a>
           </li>
         </ul>
 

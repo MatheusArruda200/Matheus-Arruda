@@ -22,7 +22,7 @@ export function Content() {
 
         <div className='grid grid-cols-3 items-center gap-1.5'>
 
-          <div className='group/item hover:bg-transparent text-center max-w-20 '>
+          <div className='group/item hover:bg-transparent text-center max-w-20  hover:scale-110'>
             <a className="size-20"
              href="https://pt-br.legacy.reactjs.org/" target='blank'>
               <img
@@ -32,7 +32,7 @@ export function Content() {
             <p className='group/edit invisible  group-hover/item:visible'>React</p>
           </div>
 
-          <div className='group/item hover:bg-transparent text-center max-w-20'>
+          <div className='group/item hover:bg-transparent text-center max-w-20 hover:scale-110'>
             <a href="https://tailwindcss.com/" target='blank'>
               <img
                 className='size-20'
@@ -41,7 +41,7 @@ export function Content() {
             <p className='group/edit invisible  group-hover/item:visible'>TailwindCSS</p>
           </div>
 
-          <div className='group/item hover:bg-transparent text-center max-w-20'>
+          <div className='group/item hover:bg-transparent text-center max-w-20 hover:scale-110'>
             <a
               href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target='blank'>
               <img
@@ -51,7 +51,7 @@ export function Content() {
             <p className='group/edit invisible  group-hover/item:visible'>JavaScript</p>
           </div>
 
-          <div className='group/item hover:bg-transparent text-center max-w-20'>
+          <div className='group/item hover:bg-transparent text-center max-w-20 hover:scale-110'>
             <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target='blank'>
               <img
                 className='size-20'
@@ -61,7 +61,7 @@ export function Content() {
           </div>
 
 
-          <div className='group/item hover:bg-transparent text-center max-w-20'>
+          <div className='group/item hover:bg-transparent text-center max-w-20 hover:scale-110'>
             <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target='blank'>
               <img
                 className='size-20'
@@ -78,11 +78,12 @@ export function Content() {
         <h2 className="text-xl font-semibold mb-5 flex flex-col">Projetos</h2>
         <div className="text-blue-200 flex gap-3">
 
-          <img src="https://placehold.co/120?text=Em+Breve" alt="" />
-          <img src="https://placehold.co/120?text=Em+Breve" alt="" />
-          <img src="https://placehold.co/120?text=Em+Breve" alt="" />
-          <img src="https://placehold.co/120?text=Em+Breve" alt="" />
-          <img src="https://placehold.co/120?text=Em+Breve" alt="" />
+          <img className="rounded-xl hover:scale-110 cursor-pointer" src="https://placehold.co/120?text=Em+Breve" alt="" />
+          <img className="rounded-xl hover:scale-110 cursor-pointer" src="https://placehold.co/120?text=Em+Breve" alt="" />
+          <img className="rounded-xl hover:scale-110 cursor-pointer" src="https://placehold.co/120?text=Em+Breve" alt="" />
+          <img className="rounded-xl hover:scale-110 cursor-pointer" src="https://placehold.co/120?text=Em+Breve" alt="" />
+          <img className="rounded-xl hover:scale-110 cursor-pointer" src="https://placehold.co/120?text=Em+Breve" alt="" />
+          
   
         </div>
       </section>
