@@ -1,15 +1,17 @@
-
 import '../index.css';
 
 export function Sidebar() {
+
   return (
-    <div className="mx-10 w-1/3 p-4 shadow-md bg-slate-900 px-5">
+    <div className="p-4 shadow-md bg-slate-900 px-5 w-full lg:w-1/3">
       <div className="sticky top-0 mt-20">
         <h1 className="text-2xl font-bold mb-4 text-white">Matheus Arruda</h1>
         <h2 className="mb-5 font-semibold text-blue-200">Desenvolvedor Front-End</h2>
         <p className="mb-5">Eu crio experiências digitais perfeitas, envolventes e acessíveis.</p>
 
-        <ul className="mt-20">
+
+
+        <ul className={`mt-20 lg:block`}>
           <li className="mb-3.5">
             <a href="#about" className="text-blue-200 hover:text-white animate-link hover:translate-x-4">Sobre Mim</a>
           </li>
