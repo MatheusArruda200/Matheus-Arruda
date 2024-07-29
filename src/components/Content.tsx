@@ -27,7 +27,7 @@ export function Content() {
              href="https://pt-br.legacy.reactjs.org/" target='blank'>
               <img
                 className='size-20'
-                src="src/assets/react-svgrepo-com.svg" alt="React" title="Clique e saiba mais." />
+                src="/assets/react-svgrepo-com.svg" alt="React" title="Clique e saiba mais." />
             </a>
             <p className='group/edit invisible  group-hover/item:visible'>React</p>
           </div>
@@ -36,7 +36,7 @@ export function Content() {
             <a href="https://tailwindcss.com/" target='blank'>
               <img
                 className='size-20'
-                src="src/assets/tailwind-svgrepo-com.svg" alt="TailwindCSS" title="Clique e saiba mais."/>
+                src="assets/tailwind-svgrepo-com.svg" alt="TailwindCSS" title="Clique e saiba mais."/>
             </a>
             <p className='group/edit invisible  group-hover/item:visible'>TailwindCSS</p>
           </div>
@@ -46,7 +46,7 @@ export function Content() {
               href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target='blank'>
               <img
                 className='size-20'
-                src="src/assets/javascript-svgrepo-com.svg" alt="JavaScript" title="Clique e saiba mais."/>
+                src="/assets/javascript-svgrepo-com.svg" alt="JavaScript" title="Clique e saiba mais."/>
             </a>
             <p className='group/edit invisible  group-hover/item:visible'>JavaScript</p>
           </div>
@@ -55,7 +55,7 @@ export function Content() {
             <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target='blank'>
               <img
                 className='size-20'
-                src="src/assets/html-5-svgrepo-com.svg" alt="HTML" title="Clique e saiba mais."/>
+                src="/assets/html-5-svgrepo-com.svg" alt="HTML" title="Clique e saiba mais."/>
             </a>
             <p className='group/edit invisible  group-hover/item:visible'>HTML</p>
           </div>
@@ -65,7 +65,7 @@ export function Content() {
             <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target='blank'>
               <img
                 className='size-20'
-                src="src/assets/css3-01-svgrepo-com.svg" alt="CSS3" title="Clique e saiba mais."/>
+                src="/assets/css3-01-svgrepo-com.svg" alt="CSS3" title="Clique e saiba mais."/>
             </a>
             <p className='group/edit invisible  group-hover/item:visible'>CSS3</p>
           </div>

@@ -1,5 +1,5 @@
 
-import '../index.css'; // Supondo que você tenha criado o arquivo styles.css
+import '../index.css';
 
 export function Sidebar() {
   return (
@@ -23,13 +23,13 @@ export function Sidebar() {
 
         <div className="mt-20 grid grid-cols-3 gap-2">
           <a href="https://github.com/MatheusArruda200" target="_blank">
-            <img className="w-12 h-12" src="/src/assets/github-142-svgrepo-com.svg" alt="GitHub" />
+            <img className="w-12 h-12" src="/assets/github-142-svgrepo-com.svg" alt="GitHub" />
           </a>
           <a href="https://www.linkedin.com/in/matheus-arruda-881b43162/" target="_blank">
-            <img className="w-12 h-12" src="/src/assets/linkedin.svg" alt="Linkedin" />
+            <img className="w-12 h-12" src="/assets/linkedin.svg" alt="Linkedin" />
           </a>
           <a href="https://wa.me/5581995012029" target="_blank">
-            <img className="w-12 h-12" src="/src/assets/wpp.svg" alt="Whatsapp" />
+            <img className="w-12 h-12" src="/assets/wpp.svg" alt="Whatsapp" />
           </a>
         </div>
       </div>
